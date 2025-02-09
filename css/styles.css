@@ -1,1 +1,74 @@
 /* Ini file CSS */
+
+body {
+    font-family: system-ui;
+}
+
+main {
+    max-width: 750px;
+    justify-self: center;
+
+    /* Background Matter */
+    background-color: lavender;
+    border-radius: 10px;
+}
+
+.main-header {
+    text-align: center;
+}
+
+section {
+    padding: 8px;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+  }
+  
+  input[type=number]:focus {
+    border: 3px solid #555;
+  }
+
+.button-group {
+    margin-top: 16px;
+}
+
+button {
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.bg-darkgrey {
+    background-color: darkgrey;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.remark {
+    font-weight: bold;
+    font-size: x-large;
+}
+
+footer {
+    text-align: center;
+}
+    

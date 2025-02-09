@@ -5,17 +5,77 @@
     <meta charset="UTF-8">
     <!-- Tag untuk responsive design -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Website Konversi Suhu</title>
 
     <!-- Link CSS -->
     <link rel="stylesheet" href="CSS\styles.css">
 </head>
 
 <body>
-    <header></header>
+    <header class="main-header">
+        <h1>Konversi Suhu</h1>
+    </header>
 
-    <main></main>
+    <main>
+        <!-- Introduction -->
+         <section>
+            <p>Masukkan suhu derajat Celsius (&deg;C) ke kotak dibawah,
+                kemudian klik tombol konversi untuk mendapatkan hasil konversi
+            dalam bentuk Fahrenheit (&deg;F)</p>    
+        </section>
 
-    <footer></footer>
+        <!-- Form Input Suhu Yang Akan di Konversi-->
+         <section>
+            <form>
+                <div class="input-group">
+                    <label for="main-input">Celcius:</label>
+                    <input type="number" id="main-input">
+                </div>
+
+                <div class="button-group">
+                    <button class="bg-darkgray">Konversi</button>
+                    <button class="bg-white">Reset</button>
+                    <button class="bg-white">Reverse</button>
+                </div>
+            </form>
+         </section>
+
+         <!-- Hasil Konversi-->
+         <section>
+            <div class="input-group">
+                <label for="main-result">Fahrenheit:</label>
+                <input type="text" id="main-result" readonly>
+            </div>
+         </section>
+
+         <!-- Cara Konversi Suhu -->
+          <section>
+            <div class="input-group">
+                <label for="cara-konversi">Cara Konversi:</label>
+                <input type="text" id="cara-konversi" readonly>
+            </div>
+         </section>
+
+         <!-- Penjelasan Rumus Konversi Suhu-->
+          <section>
+            <header>
+                <h3>Cara Konversi dari Celsius (&deg;C) ke Fahrenheit (&deg;F)</h2>
+            </header>
+
+            <hr>
+
+            <article>
+                <p>Suhu <span class="remark">S</span> dalam derajat Fahrenheit (&deg;F) sama dengan
+                suhu <span class="remark">S</span> dalam derajat Celsius (&deg;C) kali 9/5 tambah 32.</p>
+                <p>S<sub>(&deg;F)</sub>=(S<sub>(&deg;C)</sub>x9/5)+32</p>
+                <p> atau</p>
+                <p>S<sub>(&deg;F)</sub>=(S<sub>(&deg;C)</sub>x1.8)+32</p>
+            </article>
+          </section>
+    </main>
+
+    <footer>
+        <p>Made by Jaka Perdana/2025</p>
+    </footer>
 </body>
 </html>
